@@ -1,0 +1,26 @@
+{
+  "name": "servicescenterproject",
+  "version": "1.0.0",
+  "description": "this in project of services center around colombo",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MalithRukshan/servicesCenter.git"
+  },
+  "keywords": [
+    "node",
+    "npm"
+  ],
+  "author": "malitharukshan1990@gmail.com/wpraneethmadusanka@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MalithRukshan/servicesCenter/issues"
+  },
+  "homepage": "https://github.com/MalithRukshan/servicesCenter#readme"
+}
