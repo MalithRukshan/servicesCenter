@@ -1,0 +1,21 @@
+{
+  "name": "servicesCenterProject",
+  "authors": [
+    "malitharukshan <malitharukshan1990@gmail.com>"
+  ],
+  "description": "this is project of services center",
+  "main": "index.html",
+  "keywords": [
+    "bower"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
