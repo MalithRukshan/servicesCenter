@@ -53,31 +53,39 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a ui-sref="dashboard.hub">Dashboard</a>
+                            <a ui-sref="dashboard.hub" role="button">Dashboard</a>
                         </li>
                         <li>
-                            <a ui-sref="record">Records</a>
+                            <a ui-sref="record" role="button">Records</a>
+                        </li>
                         <li>
-                        <li>
-                            <a ui-sref="import">Import</a>
-
+                            <a ui-sref="import" role="button">Import</a>
+                        </li>
                         <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" role="button">Dropdown <span
-                                    class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
+                            <a href="#" role="button">Dropdown <b class="caret"></b></a>
+                            <ul class="dropdown-menu " id="menu1">
+                                <li>
+                                    <a href="#">2-level Menu &nbsp;<i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                                    <ul class="dropdown-menu sub-menu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li class="divider"></li>
+                                        <li class="dropdown-header">Nav header</li>
+                                        <li><a href="#">Separated link</a></li>
+                                        <li><a href="#">One more separated </a></li>
+                                    </ul>
+                                </li>
                                 <li><a href="#">Another action</a></li>
                                 <li><a href="#">Something else here</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li class="dropdown-header">Nav header</li>
+                                <li class="divider"></li>
                                 <li><a href="#">Separated link</a></li>
-                                <li><a href="#">One more separated link</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" role="button">Dropdown <span
+                            <a role="button">Dropdown2 <span
                                     class="caret"></span></a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu ">
                                 <li><a href="#">Actidfgfdon</a></li>
                                 <li><a href="#">Anothdfgdfger action</a></li>
                                 <li><a href="#">Something eldfgdfse here</a></li>
