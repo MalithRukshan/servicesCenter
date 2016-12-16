@@ -29,6 +29,7 @@
     "angular-ui-router": "^0.3.2",
     "font-awesome": "^4.7.0",
     "font-awesome-animation": "^0.0.9",
-    "wow": "wowjs#^1.1.2"
+    "wow": "wowjs#^1.1.2",
+    "parallax.js": "^1.4.2"
   }
 }
