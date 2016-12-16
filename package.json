@@ -1,26 +1,44 @@
 {
-  "name": "servicescenterproject",
-  "version": "1.0.0",
-  "description": "this in project of services center around colombo",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
+  "name": "servicesCenter",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MalithRukshan/servicesCenter.git"
+  "dependencies": {
+    "adm-zip": "^0.4.7",
+    "archiver": "^1.0.0",
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "ejs": "~2.3.3",
+    "express": "~4.13.1",
+    "less-middleware": "1.0.x",
+    "mkdirp": "^0.5.1",
+    "morgan": "~1.6.1",
+    "multer": "^1.1.0",
+    "omit-keys": "^0.1.0",
+    "only": "0.0.2",
+    "orientjs": "^2.1.11",
+    "rimraf": "^2.5.2",
+    "serve-favicon": "~2.3.0",
+    "socket.io": "^1.4.6"
   },
-  "keywords": [
-    "node",
-    "npm"
-  ],
-  "author": "malitharukshan1990@gmail.com/wpraneethmadusanka@gmail.com",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MalithRukshan/servicesCenter/issues"
-  },
-  "homepage": "https://github.com/MalithRukshan/servicesCenter#readme"
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean-css": "^2.0.8",
+    "gulp-concat": "^2.6.0",
+    "gulp-html-replace": "^1.6.0",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-install": "^0.6.0",
+    "gulp-less": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3",
+    "gulp-util": "^3.0.7",
+    "main-bower-files": "^2.13.1",
+    "merge-stream": "^1.0.0"
+  }
 }

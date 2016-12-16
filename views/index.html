@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/customCssFile.css">
+    <link rel="stylesheet" href="stylesheets/bortpopup.css">
+
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="font-awesome-animation/dist/font-awesome-animation.min.css">
+    <link rel="stylesheet" href="wow/css/libs/animate.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <script src="jquery/dist/jquery.min.js"></script>
+    <script src="angular/angular.min.js"></script>
+    <script src="angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script src="angular-bootstrap/ui-bootstrap.min.js"></script>
+    <script src="wow/dist/wow.min.js"></script>
+
+    <!--config-->
+    <script src="config/server-config.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</head>
+<body>
+<!-- Navigation -->
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+            <div class="container topnav">
+
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><span><img src="images/lograt-logo.png"
+                                                                style="height: 30px;width: 100px" alt=""></span>
+                        AutoSuport</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a ui-sref="dashboard.hub">Dashboard</a>
+                        </li>
+                        <li>
+                            <a ui-sref="record">Records</a>
+                        <li>
+                        <li>
+                            <a ui-sref="import">Import</a>
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" role="button">Dropdown <span
+                                    class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Nav header</li>
+                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" role="button">Dropdown <span
+                                    class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Actidfgfdon</a></li>
+                                <li><a href="#">Anothdfgdfger action</a></li>
+                                <li><a href="#">Something eldfgdfse here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Nav headdfger</li>
+                                <li><a href="#">Separated linkdfdf</a></li>
+                                <li><a href="#">One more separated lidfgdfk</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+    </div>
+    <div class="row" style="padding-top: 3.5%">
+        <div style="height: 300px;background-image: url('http://www.hdcarwallpapers.com/walls/2017_luethen_motorsport_mercedes_amg_gt-HD.jpg')">
+
+        </div>
+    </div>
+    <!-- this is start of pakages-->
+    <div class="row" style="margin-bottom: 2%;" >
+        <div class="container">
+            <h3 class="box-header">COMPANY OVERVIEW</h3>
+            <p class="description align-center">We can help you with everything from an oil change to an engine change.<br>We can handle any problem on both foreign and domestic vehicles.</p>
+        <div class="col-xs-12 col-sm-12 col-md-4 " style="background-color: white">
+            <ul class="features-list">
+                <li>
+                    <h5>CAR AUDIO SERVICE</h5>
+                    <div class="icon sl-small-car-audio"></div>
+                    <p>Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas modern forte elementum vehicula.</p>
+                </li>
+                <li>
+                    <h5>CAR A/C RECHARGE</h5>
+                    <div class="icon sl-small-air-conditioning"></div>
+                    <p>Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas modern forte elementum vehicula.</p>
+                </li>
+            </ul>
+
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 " style="background-color: white">
+            <ul class="features-list">
+                <li>
+                    <h5>CAR AUDIO SERVICE</h5>
+
+                    <div class="icon sl-small-car-battery">
+
+                    </div>
+                    <p>Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas modern forte elementum vehicula.</p>
+                </li>
+                <li>
+                    <h5>CAR A/C RECHARGE</h5>
+                    <div class="icon sl-small-car-oil"></div>
+                    <p>Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas modern forte elementum vehicula.</p>
+                </li>
+            </ul>
+        </div>
+        <div class=" col-xs-12 col-sm-12 col-md-4" style="background-color: white">
+            <ul class="features-list">
+                <li>
+                    <h5>CAR AUDIO SERVICE</h5>
+                    <div class="icon sl-small-car-audio"></div>
+                    <p>Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas modern forte elementum vehicula.</p>
+                </li>
+                <li>
+                    <h5>CAR A/C RECHARGE</h5>
+                    <div class="icon sl-small-air-conditioning"></div>
+                    <p>Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas modern forte elementum vehicula.</p>
+                </li>
+            </ul>
+
+        </div>
+        </div>
+</div>
+    <!-- this is end of pakages-->
+
+
+    <!-- This is  detail about pakage of offer-->
+    <div class="row parallax parallax-1" style="padding-top: 10px;margin-bottom:0px;padding-left: 5%;padding-right: 5%">
+
+        <div class="col-xs-12 col-sm-12 col-md-8 " style="margin-bottom: 32px">
+            <h3 class="box-headerWithImage">Oure Mission</h3>
+            <p class="descriptioninMision align-center">We can help you with everything from an oil change to an engine change.<br>We can handle any problem on both foreign and domestic vehicles.</p>
+            <h3 class="box-headerWithImage">Our Vision</h3>
+            <p class="descriptioninMision align-center">We can help you with everything from an oil change to an engine change.<br>We can handle any problem on both foreign and domestic vehicles.</p>
+
+
+        </div>
+        <div class="col-md-4 dispalyMachic">
+            <img style="height: 10%;padding-left: 20%" src="images/machanicalMap.png">
+        </div>
+    </div>
+    <div class="livechat-girl js-livechat-girl animated " data-toggle="tooltip" data-placement="top"
+         title="Tooltip on top" id="lc-girl-block-en_2"><img class="girl"
+                                                             src="images/question.png">
+        <div class="js-livechat-hint livechat-hint rd-notice rd-notice-tooltip rd-notice-type-success rd-notice-position-left single-line hide_hint"
+             style="display: none;">
+            <div class="popover-content rd-notice-content"> Hey, I’m ready to help you!</div>
+        </div>
+
+    </div>
+    <div class="row" style="background-color: rgb(252, 252, 252);">
+        <div class="container-fluid">
+            <h3 class="box-header">Our Coverge  are</h3>
+
+        <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12" style="padding-right: 0px;padding-left: 0px" >
+            <div id="map" >
+            </div>
+            <script>
+                function initMap() {
+                    var uluru = {lat: 7.8731, lng: 80.7718};
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                        zoom: 10,
+                        center: uluru
+                    });
+                    var marker = new google.maps.Marker({
+                        position: uluru,
+                        map: map
+                    });
+                }
+            </script>
+            <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRiZRFHclpvLj12LdXlvGejsWFpfcEmG0&callback=initMap">
+            </script>
+
+
+        </div>
+        </div>
+    </div>
+        </div>
+    <div class="row">
+        <footer class="subfooter">
+            <section id="mainFooter">
+                <div class="container">
+                    <div class="row">
+
+                        <div class=" col-xs-12 col-sm-3 ">
+                            <div class="footerWidget h-center">
+                                <div class="sbd"></div>
+                                <h4 class="wow fadeInDown" data-wow-duration="1500ms">Hours of work</h4>
+                                <div class="row"style="margin-left: 0px">
+                                    <h5> <p>we are the learding company in srilank to suport services to wehical. we have 34 branches
+                                    in all over the country <br><br>
+                                    ypu can reach us using ouer mobile number sdfdfd <br>
+                                        or booking our services
+                                    </p></h5>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="col-xs-12 col-sm-4 ">
+
+                            <div class="footerWidget call">
+                                <div class="sbd"></div>
+                                <h4 class="wow fadeInDown" data-wow-duration="1500ms">Feel Free to Call Us Now</h4>
+
+                                <div class="row">
+                                    <div class="  col-md-3 rounddiv"><i
+                                            class="fa fa-volume-control-phone fa-2x wow flash" data-wow-duration="3s"
+                                            ></i></div>
+                                    <div class=" col-md-6 rounddivol"><h5>+94771728223</h5></div>
+                                    <div class=" col-md-3"></div>
+                                </div>
+                                <div class="row">
+                                    <div class=" col-md-3 rounddiv"><i class="fa fa-mobile fa-3x wow flash"
+                                                                       data-wow-duration="4s"
+                                                                      ></i></div>
+                                    <div class=" col-md-6 rounddivol"><h5>+94771728223</h5></div>
+                                    <div class=" col-md-3"></div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-3 ">
+                            <div class="footerWidget">
+                                <div class="sbd"></div>
+                                <h4 class="wow fadeInDown" data-wow-duration="1500ms">AutoSuport Address</h4>
+                                <address>
+                                    <br><i class="fa fa-map-marker fa-2x"></i>&nbsp;77 Mass. Ave., E14/E15<br>
+                                    Seattle, MA 02139-4307 USA <br><i class="fa fa-envelope-o fa-1x"></i>&nbsp;
+                                    malitharukshan1990@gmail.com<br>
+
+
+                                    </p>
+
+
+                                </address>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-2 ">
+                            <div class="footerWidget">
+                                <div class="sbd"></div>
+                                <h4 class="wow fadeInDown" data-wow-duration="1500ms">About Us</h4>
+                                <div class="row" style="margin-left: 0px">
+                                    <ul class="socialNetwork">
+
+                                        <li class="facebook"><a href="#" class="tips" title="follow me on Twitter"><i
+                                                class="fa fa-facebook fa-1x"></i></a></li>
+                                        <li class="twitter"><a href="#" class="tips" title="follow me on Twitter"><i
+                                                class="fa fa-twitter fa-1x"></i></a></li>
+                                        <li class="google-plus"><a href="#" class="tips"
+                                                                   title="follow me on google-plus"><i
+                                                class="fa fa-google-plus fa-1x"></i></a></li>
+                                        <li class="linkedin"><a href="#" class="tips"
+                                                                title="follow me on fa-linkedin"><i
+                                                class="fa fa-linkedin fa-1x"></i></a></li>
+                                    </ul>
+                                </div>
+                                <!--<div class="row">
+                                    <div class="col-xs-12 col-sm-8 "
+                                         style="border: 12px;background-color:#337ab7 ;margin-top: 7px"></div>
+                                </div>-->
+                                <!--<div class="row">
+                                    <ul class="socialNetwork">
+
+                                        <li><i class="fa fa-envelope-o fa-1x wow slideInLeft"></i></li>
+                                        <li><h5 class="wow slideInLeft">malitharukshan1990@gmail.com</h5></li>
+                                    </ul>
+
+
+                                </div>-->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="footerRights">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class=" col-xs-12 col-sm-12 ">
+                            <ul class="site-footer-links">
+                                <li>© 2016 <span
+                                        title="0.03129s from github-fe122-cp1-prd.iad.github.net">AutoSuport</span>,
+                                    com.
+                                </li>
+                                <li><a ui-sref="dashboard">Dashboard</a></li>
+                                <li><a ui-sref="analysis.overview">Analysis</a></li>
+                                <li><a ui-sref="organizer">Organizer</a></li>
+                                <li><a ui-sref="about">About</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </div>
+
+</div>
+
+
+</body>
+
+</html>

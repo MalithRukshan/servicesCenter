@@ -1,0 +1,1 @@
+var serverConfigurations = { port: 7000, hostname: "localhost" };
