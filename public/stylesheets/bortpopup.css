@@ -98,20 +98,20 @@
     z-index: 50;
 }
  .facebook i {
-     background-color: rgba(34, 26, 240, 0.75);
+     background-color: #73767a;
      color: white;
 }
  .twitter i{
-     background-color: rgba(0, 213, 0, 0.7);
+     background-color: #73767a;
      color: white;
  }
  .google-plus i{
-     background-color: rgba(243, 0, 0, 0.56);
+     background-color: #73767a;
      color: white;
  }
  .linkedin i{
 
-     background-color: rgba(0, 0, 197, 0.45);
+     background-color: #73767a;
      color: white;
  }
 #map {
