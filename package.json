@@ -5,6 +5,9 @@
   "scripts": {
     "start": "node ./bin/www"
   },
+  "engines": {
+    "node": "6.9.1"
+  },
   "dependencies": {
     "adm-zip": "^0.4.7",
     "archiver": "^1.0.0",
