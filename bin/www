@@ -33,7 +33,7 @@ fs.writeFile("app/config/server-config.js", content, function (err) {
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(config.port || '3000');
+var port = normalizePort(config.port||process.env.PORT || '3000');
 app.set('port', port);
 
 /**
