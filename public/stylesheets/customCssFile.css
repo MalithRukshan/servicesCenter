@@ -130,7 +130,7 @@ ul.socialNetwork li i{
 }
 @media screen and (max-width: 450px) and (min-width: 0px) {
     .frontContriller{
-        font-size: medium;
+        font-size: large;
         font-style: oblique;
         font-weight: bold;
     }
