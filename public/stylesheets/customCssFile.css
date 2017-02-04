@@ -142,105 +142,18 @@ ul.socialNetwork li i {
 }
 
 @media screen and (max-width: 450px) and (min-width: 0px) {
-    .frontContriller {
-        font-size: large;
-        font-style: oblique;
-        font-weight: bold;
-    }
+
 
     .dispalyMachic {
         display: none;
     }
 
-    .rounddivol {
-        color: rgb(224, 224, 224);
-        padding: 8px 15px;
-        display: inline-block;
-        margin-left: 40px;
-        -moz-border-radius: 80px;
-        -webkit-border-radius: 80px;
-        border-radius: 100px;
-        -moz-box-shadow: 0px 0px 2px #112288;
-        /*-webkit-box-shadow: 0px 0px 2px #201988;
-        box-shadow: 0px 0px 2px rgba(46, 93, 237, 0.93);*/
-        border-color: #1b31ff;
-    }
 
-    .footerWidget {
-        margin-top: 10px;
-        line-height: 1.5;
-
-    }
-
-    .sbd {
-        margin-bottom: 10%;
-        border: 1px;
-        background-color: #888a8e;
-        height: 1px;
-    }
-
-    .divstyle {
-        margin-top: 1%;
-        margin-bottom: 1%;
-
-    }
-
-    .divstyle2 {
-        margin-top: 2%;
-        margin-bottom: 0%;
-    }
-
-    .divstyle3 {
-        margin-top: 4%;
-        margin-bottom: 10%;
-    }
 
 }
 
 @media screen and (max-width: 560px) and (min-width: 430px) {
-    .frontContriller {
-        font-size: large;
-        font-style: oblique;
-        font-weight: bold;
-    }
 
-    .rounddivol {
-        color: rgb(224, 224, 224);
-        padding: 8px 15px;
-        display: inline-block;
-        margin-left: 40px;
-        -moz-border-radius: 80px;
-        -webkit-border-radius: 80px;
-        border-radius: 100px;
-        -moz-box-shadow: 0px 0px 2px #112288;
-        /*-webkit-box-shadow: 0px 0px 2px #201988;
-        box-shadow: 0px 0px 2px rgba(46, 93, 237, 0.93);*/
-        border-color: #1b31ff;
-    }
-
-    .footerWidget {
-        margin-top: 10px;
-        line-height: 1.5;
-
-    }
-
-    .sbd {
-        margin-bottom: 10%;
-        border: 1px;
-        background-color: #888a8e;
-        height: 1px
-    }
-
-    .divstyle {
-        margin-top: 2%;
-        margin-bottom: 1%;
-
-    }
-
-    .divstyle2 {
-        margin-top: -3%;
-        margin-bottom: 1%;
-    }
 
     .dispalyMachic {
         display: none;
@@ -256,13 +169,7 @@ ul.socialNetwork li i {
 
 }
 
-@media screen and (max-width: 1200px) and (min-width: 990px) {
-    .divstyle2 {
-        margin-top: 2%;
-        margin-bottom: 1%;
-    }
 
-}
 
 .rounddi24 {
     color: #60fff7;
@@ -530,4 +437,12 @@ li.pullRightLeft a:hover:before, li.pullRightLeft a:hover:after {
     padding-left: 12px;
     padding-bottom: 10px;
 }
-
+.float-right{
+    float: left;
+}
+.float-righticon{
+    width: 25px;
+}
+.support-alignment{
+    padding-left: 17px !important;
+}
