@@ -2,15 +2,18 @@
     margin: 0;
     list-style: none;
 }
+
 .site-footer-links li {
     display: inline;
     padding: 0 5px 0 5px;
     align-content: center;
     font-size: small;
 }
+
 .footer {
     margin-top: 20px;
 }
+
 .site-footer {
     position: relative;
     margin-top: 40px;
@@ -21,14 +24,16 @@
     color: #767676;
     border-top: 1px solid #eee;
 }
+
 .subfooter {
     color: #FFF;
     background: #73767A;
-     padding: 24px 0 0 0;}
+    padding: 24px 0 0 0;
+}
 
 .navbar-default {
-    background-color: #ffffff;
-    border-color: #ffffff;
+    background-color: rgb(237, 237, 237);
+    border-color: rgb(237, 237, 237);
 }
 
 .rowcall {
@@ -36,16 +41,18 @@
     margin-right: -15px;
     margin-left: -15px;
 }
+
 .snippet, .source-panel {
     /* background: #ededed; */
     position: relative;
     clear: both;
     margin-top: 20px;
 }
+
 #footerRights {
     background: #ffffff;
     color: #A4AAB3;
-   // border-top: 1px solid #adadad;
+/ / border-top: 1 px solid #adadad;
     padding-top: 22px;
     padding-bottom: 22px;
     margin-top: 22px;
@@ -61,6 +68,7 @@
     color: #fff;
     border-color: #46b0c3;
 }
+
 .iconRounded {
     color: #46b0c3;
     border: 1px solid #46b0c3;
@@ -71,22 +79,25 @@
     text-align: center;
     font-size: 18px;
 }
+
 ul.socialNetwork li {
-     display: inline-block;
-     list-style-type: none;
-     margin-top: 0.8em;
- }
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 0.8em;
+}
 
 .site-footer-links li a {
-    color:#777;
+    color: #777;
 
 }
-ul.socialNetwork  {
+
+ul.socialNetwork {
     padding: 0;
     display: block;
     margin-bottom: 0;
 }
-ul.socialNetwork li i{
+
+ul.socialNetwork li i {
     padding: 10px 12px;
     width: 34px;
     height: 34px;
@@ -99,22 +110,23 @@ ul.socialNetwork li i{
     box-shadow: 0px 0px 2px #888;
     border-color: #1abbff;
 
-
 }
+
 .footerWidget h4 {
-    margin-top:0px;
+    margin-top: 0px;
 
 }
-.rounddiv{
+
+.rounddiv {
     padding: 1px 20px;
     display: inline-block;
     -moz-border-radius: 40px;
     -webkit-border-radius: 40px;
     border-radius: 10%;
 
-
 }
-.rounddivol{
+
+.rounddivol {
     color: #fff;
     padding: 8px 15px;
     display: inline-block;
@@ -126,17 +138,19 @@ ul.socialNetwork li i{
     /*box-shadow: 0px 0px 2px rgba(46, 93, 237, 0.93);
     border-color: #1b31ff;*/
 }
+
 @media screen and (max-width: 450px) and (min-width: 0px) {
-    .frontContriller{
+    .frontContriller {
         font-size: large;
         font-style: oblique;
         font-weight: bold;
     }
 
-    .dispalyMachic{
+    .dispalyMachic {
         display: none;
     }
-    .rounddivol{
+
+    .rounddivol {
         color: rgb(224, 224, 224);
         padding: 8px 15px;
         display: inline-block;
@@ -149,39 +163,46 @@ ul.socialNetwork li i{
         box-shadow: 0px 0px 2px rgba(46, 93, 237, 0.93);*/
         border-color: #1b31ff;
     }
-    .footerWidget{
+
+    .footerWidget {
         margin-top: 10px;
         line-height: 1.5;
 
     }
-    .sbd{
+
+    .sbd {
         margin-bottom: 10%;
         border: 1px;
-        background-color:#888a8e ;
+        background-color: #888a8e;
         height: 1px;
     }
-    .divstyle{
+
+    .divstyle {
         margin-top: 1%;
         margin-bottom: 1%;
 
     }
-    .divstyle2{
+
+    .divstyle2 {
         margin-top: 2%;
         margin-bottom: 0%;
     }
-    .divstyle3{
+
+    .divstyle3 {
         margin-top: 4%;
         margin-bottom: 10%;
     }
 
 }
+
 @media screen and (max-width: 560px) and (min-width: 430px) {
-    .frontContriller{
-     font-size: large;
+    .frontContriller {
+        font-size: large;
         font-style: oblique;
         font-weight: bold;
     }
-    .rounddivol{
+
+    .rounddivol {
         color: rgb(224, 224, 224);
         padding: 8px 15px;
         display: inline-block;
@@ -194,47 +215,54 @@ ul.socialNetwork li i{
         box-shadow: 0px 0px 2px rgba(46, 93, 237, 0.93);*/
         border-color: #1b31ff;
     }
-    .footerWidget{
+
+    .footerWidget {
         margin-top: 10px;
         line-height: 1.5;
 
     }
-    .sbd{
+
+    .sbd {
         margin-bottom: 10%;
         border: 1px;
-        background-color:#888a8e;
+        background-color: #888a8e;
         height: 1px
     }
-    .divstyle{
+
+    .divstyle {
         margin-top: 2%;
         margin-bottom: 1%;
 
     }
-    .divstyle2{
+
+    .divstyle2 {
         margin-top: -3%;
         margin-bottom: 1%;
     }
-    .dispalyMachic{
+
+    .dispalyMachic {
         display: none;
     }
 
 }
+
 @media screen and (max-width: 990px) and (min-width: 560px) {
 
-    .dispalyMachic{
+    .dispalyMachic {
         display: none;
     }
 
 }
+
 @media screen and (max-width: 1200px) and (min-width: 990px) {
-    .divstyle2{
+    .divstyle2 {
         margin-top: 2%;
         margin-bottom: 1%;
     }
 
-
 }
-.rounddi24{
+
+.rounddi24 {
     color: #60fff7;
     padding: 8px 13px;
     display: inline-block;
@@ -246,28 +274,235 @@ ul.socialNetwork li i{
     box-shadow: 0px 0px 2px rgba(46, 93, 237, 0.93);
     border-color: #1b31ff;
 }
+
 .h-center {
     text-align: left;
 }
-.imagecss{
+
+.imagecss {
 
     margin-left: 10%;
 
 }
-.divstyle{
+
+.divstyle {
 }
 
-.glyphicon { margin-right:10px; }
-.panel-body { padding:0px; }
-.panel-body table tr td { padding-left: 15px }
-.panel-body .table {margin-bottom: 0px; }
+.glyphicon {
+    margin-right: 10px;
+}
 
-.aboutus-margin{
+.panel-body {
+    padding: 0px;
+}
+
+.panel-body table tr td {
+    padding-left: 15px
+}
+
+.panel-body .table {
+    margin-bottom: 0px;
+}
+
+.aboutus-margin {
     height: 300px !important;
 }
-.icon-marginaboutus{
-    margin-top:-7px;
+
+.icon-marginaboutus {
+    margin-top: -7px;
 }
+
 .font-face {
     font-family: 'Open Sans';
+}
+
+/*add for nav bar*/
+
+.navbar-brand {
+
+    background-color: rgb(237, 237, 237);
+    z-index: 9999999;
+    position: fixed;
+    width: 120px;
+    height: 120px;
+    margin-left: 4%;
+    border-radius: 50%;
+
+}
+
+/*************************
+EXAMPLES 2-7 BELOW
+**************************/
+
+/* EXAMPLE 2 (larger logo) - simply adjust top bottom padding to make logo larger */
+
+.navbar-toggle {
+    z-index: 1;
+}
+
+/* CSS Transform Align Navbar Brand Text ... This could also be achieved with table / table-cells */
+.navbar-alignit .navbar-header {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    height: 50px;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    z-index: 9999;
+}
+
+body {
+    font-family: "Lato";
+}
+
+.nivFront {
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    line-height: 30px;
+    border: 1px solid rgba(255, 255, 255, 0) !important;
+
+}
+
+.nivFront:hover {
+    background-color: red;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    line-height: 30px;
+    border: 1px solid rgba(255, 255, 255, 0) !important;
+    color: #68abff;
+}
+
+.navbar-default .navbar-nav > li > a :hover {
+    background-color: red;
+}
+
+.circleBase {
+    border-radius: 50%;
+
+    z-index: 999999;
+}
+
+.type1 {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border: 3px solid red;
+}
+
+.navigationBarStyle {
+    background-color: rgb(237, 237, 237);
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    margin-left: -4px;
+}
+
+li.containerWord {
+    font-family: Raleway;
+    margin: 0 auto;
+    padding: 0em 0em;
+    text-align: center;
+}
+
+li.containerWord a {
+    color: #FFF;
+    text-decoration: blink;
+    font: 12px inherit;
+    margin: 0px 10px;
+    padding: 15px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+li.topBotomBordersOut a:before, li.topBotomBordersOut a:after {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 1px;
+    background: blue;
+    content: "";
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+li.topBotomBordersOut a:before {
+    top: 10px;
+    transform: translateY(10px);
+}
+
+li.topBotomBordersOut a:after {
+    bottom: 10px;
+    transform: translateY(-10px);
+}
+
+li.topBotomBordersOut a:hover:before,
+li.topBotomBordersOut a:hover:after {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+li.highlightTextOut a:before,
+li.highlightTextIn a:before {
+    position: absolute;
+    color: red;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    overflow: hidden;
+    content: attr(alt);
+    transition: all 0.3s;
+    transform: scale(0.8);
+    opacity: 0;
+}
+
+li.highlightTextOut a:hover:before,
+li.highlightTextIn a:hover:before {
+    transform: scale(1);
+    opacity: 1;
+}
+
+/* Highlight text in  */
+li.highlightTextIn a {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+li.highlightTextIn a:before {
+    transform: scale(1.2);
+}
+
+li.pullRightLeft a:before, li.pullRightLeft a:after {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    top: 1px;
+    content: '';
+    background: black;
+    opacity: 0.3;
+    transition: all 0.3s;
+}
+
+li.pullRightLeft a:before {
+    left: 0px;
+}
+
+li.pullRightLeft a:after {
+    right: 0px;
+}
+
+li.pullRightLeft a:hover:before, li.pullRightLeft a:hover:after {
+    width: 100%;
+}
+
+.logoHedder {
+    width: 200px;
+    margin-left: 80px;
+    margin-top: 20px;
 }

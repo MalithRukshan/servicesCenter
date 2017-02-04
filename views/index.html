@@ -32,12 +32,13 @@
 <body>
 <!-- Navigation -->
 <div class="container-fluid">
-    <div class="row">
-        <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
-            <div class="container topnav">
+    <div class="row navigationBarStyle">
+        <div class="navbar-brand"><img class="logo" src="images/logo.png" alt=""></div>
+       <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+            <div class="container">
 
                 <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
+               <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                             data-target="#bs-example-navbar-collapse-1">
                         <span class="sr-only">Toggle navigation</span>
@@ -45,30 +46,70 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><span><img src="images/lograt-logo.png"
-                                                                style="height: 30px;width: 100px" alt=""></span>
-                        AutoSuport</a>
-                </div>
+                   <div class="logoHedder" ><h3 >AutoSupport</h3></div>
+                   <!-- <div class="navbar-brand" href="#"><span><img src="images/lograt-logo.png"style="height: 40px;width: 100px" alt=""></span>
+                        AutoSuport</div>-->
+            </div>
+
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a ui-sref="dashboard.hub" role="button">Dashboard</a>
+               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav navbar-right" >
+                        <li class="containerWord topBotomBordersOut">
+                            <a class="nivFront"  ui-sref="dashboard" role="button">Dashboard</a>
                         </li>
-                        <li>
-                            <a ui-sref="record" role="button">Records</a>
+                        <li class="containerWord topBotomBordersOut">
+                            <a class="nivFront" ui-sref="record" role="button">Records</a>
                         </li>
-                        <li>
-                            <a ui-sref="import" role="button">Import</a>
+                        <li class="containerWord topBotomBordersOut">
+                            <a class="nivFront" ui-sref="import" role="button">Import</a>
+                        </li>
+
+                        <li class="containerWord topBotomBordersOut" >
+                            <a class="nivFront" ui-sref="import" role="button" style="margin-left: 10px">Import</a>
                         </li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
-            </div>
+           </div>
             <!-- /.container -->
-        </nav>
+       </nav>
+   <!-- <header>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index-2.html"><img src="img/logo.png" alt="logo"></a>
+                </div>
+                <div id="navbar3" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header">Nav header</li>
+                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+        </div>
+    </header>-->
+
     </div>
-    <div class="row" style="padding-top: 3.5%">
+    <div class="row" >
         <div style="height: 300px;background-image: url('http://www.hdcarwallpapers.com/walls/2017_luethen_motorsport_mercedes_amg_gt-HD.jpg')">
 
         </div>
