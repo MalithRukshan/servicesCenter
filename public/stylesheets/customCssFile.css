@@ -82,7 +82,7 @@ ul.socialNetwork li {
 
 }
 ul.socialNetwork  {
-    padding: 0;
+    /*padding: 0;*/
     display: block;
     margin-bottom: 0;
 }
@@ -271,3 +271,24 @@ ul.socialNetwork li i{
 .font-face {
     font-family: 'Open Sans';
 }
+.white-border {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 2px 2px white !important;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: white !important;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 25px !important;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+}
+.aboutus_icongap{
+    padding-left: 12px;
+    padding-bottom: 10px;
+}
+
