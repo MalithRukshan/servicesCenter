@@ -154,8 +154,8 @@ ul.socialNetwork li i {
     }
 
     .livechat-girl {
-        margin-right: -62px;
-        margin-bottom: -102px;
+        margin-right: -59px;
+        margin-bottom: -53px;
         width: 68px !important;
         height: 68px !important;
     }
@@ -170,7 +170,7 @@ ul.socialNetwork li i {
 
 }
 
-@media screen and (max-width: 560px) and (min-width: 430px) {
+@media screen and (max-width: 570px) and (min-width: 450px) {
 
 
     .dispalyMachic {
@@ -183,8 +183,8 @@ ul.socialNetwork li i {
     }
 
     .livechat-girl {
-        margin-right: -62px;
-        margin-bottom: -102px;
+        margin-right: -59px;
+        margin-bottom: -53px;
         width: 68px !important;
         height: 68px !important;
     }
@@ -198,7 +198,7 @@ ul.socialNetwork li i {
 
 }
 
-@media screen and (max-width: 768px) and (min-width: 560px) {
+@media screen and (max-width: 768px) and (min-width: 570px) {
 
     .dispalyMachic {
         display: none;
@@ -206,6 +206,13 @@ ul.socialNetwork li i {
     .logoHedder {
         padding-left: 67px !important;
         margin-top: -8px !important;
+    }
+
+    .livechat-girl {
+        margin-right: -62px;
+        margin-bottom: -102px;
+        width: 68px !important;
+        height: 68px !important;
     }
     .logoHedder > h3{
         font-size: 24px;
@@ -222,6 +229,13 @@ ul.socialNetwork li i {
         padding-left: 75px !important;
         margin-top: -8px !important;
     }
+
+    .livechat-girl{
+        margin-right: -50px !important;
+        margin-bottom: -120px !important;
+        width: 68px !important;
+        height: 68px !important;
+    }
     .logoHedder > h3{
         font-size: 24px;
     }
@@ -236,6 +250,13 @@ ul.socialNetwork li i {
     .logoHedder {
         padding-left: 75px !important;
         margin-top: -8px !important;
+    }
+
+    .livechat-girl{
+        margin-right: -50px !important;
+        margin-bottom: -120px !important;
+        width: 68px !important;
+        height: 68px !important;
     }
     .logoHedder > h3{
         font-size: 24px;
