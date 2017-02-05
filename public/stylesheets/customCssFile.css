@@ -163,6 +163,9 @@ ul.socialNetwork li i {
     .navbar-brand {
         margin-left: 1% !important;
     }
+    .logoHedder > h3{
+        font-size: 21px;
+    }
 
 
 }
@@ -173,17 +176,69 @@ ul.socialNetwork li i {
     .dispalyMachic {
         display: none;
     }
+    .logoHedder {
+        padding-left: 53px !important;
+        margin-top: -8px !important;
+        font-size: 21px !important;
+    }
+
+    .livechat-girl {
+        margin-right: -62px;
+        margin-bottom: -102px;
+        width: 68px !important;
+        height: 68px !important;
+    }
+
+    .navbar-brand {
+        margin-left: 1% !important;
+    }
+    .logoHedder > h3{
+        font-size: 21px;
+    }
 
 }
 
-@media screen and (max-width: 990px) and (min-width: 560px) {
+@media screen and (max-width: 768px) and (min-width: 560px) {
 
     .dispalyMachic {
         display: none;
     }
     .logoHedder {
-        padding-left: 76px !important;
+        padding-left: 67px !important;
         margin-top: -8px !important;
+    }
+    .logoHedder > h3{
+        font-size: 24px;
+    }
+
+
+}
+@media screen and (max-width: 990px) and (min-width: 768px) {
+
+    .dispalyMachic {
+        display: none;
+    }
+    .logoHedder {
+        padding-left: 75px !important;
+        margin-top: -8px !important;
+    }
+    .logoHedder > h3{
+        font-size: 24px;
+    }
+
+
+}
+@media screen and (max-width: 1024px) and (min-width: 990px) {
+
+    .dispalyMachic {
+        display: none;
+    }
+    .logoHedder {
+        padding-left: 75px !important;
+        margin-top: -8px !important;
+    }
+    .logoHedder > h3{
+        font-size: 24px;
     }
 
 
