@@ -143,11 +143,25 @@ ul.socialNetwork li i {
 
 @media screen and (max-width: 450px) and (min-width: 0px) {
 
-
     .dispalyMachic {
         display: none;
     }
 
+    .logoHedder {
+        padding-left: 53px;
+        margin-top: -8px !important;
+    }
+
+    .livechat-girl {
+        margin-right: -62px;
+        margin-bottom: -102px;
+        width: 68px !important;
+        height: 68px !important;
+    }
+
+    .navbar-brand {
+        margin-left: 1% !important;
+    }
 
 
 }
