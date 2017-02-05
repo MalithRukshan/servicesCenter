@@ -182,7 +182,7 @@ ul.socialNetwork li i {
         display: none;
     }
     .logoHedder {
-        padding-left: 76px;
+        padding-left: 76px !important;
         margin-top: -8px !important;
     }
 
