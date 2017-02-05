@@ -148,9 +148,9 @@ ul.socialNetwork li i {
     }
 
     .logoHedder {
-        padding-left: 53px;
+        padding-left: 53px !important;
         margin-top: -8px !important;
-        font-size: 21px;
+        font-size: 21px !important;
     }
 
     .livechat-girl {
